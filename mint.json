@@ -14,12 +14,12 @@
   "topbarLinks": [
     {
       "name": "Documentation",
-      "url": "https://www.chatcsv.com/docs"
+      "url": "https://www.chatcsv.co/docs"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://www.chatcsv.com/dashboard"
+    "url": "https://www.chatcsv.co/dashboard"
   },
   "tabs": [
     {
