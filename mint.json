@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "ChatCSV Documentation",
+  "name": "ChatCSV API",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
