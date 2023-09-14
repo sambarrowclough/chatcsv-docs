@@ -7,6 +7,11 @@ authMethod: "bearer"
 
 ### Body
 
+<ResponseField name="model" type="string">
+  The model used to generate the response. One of `gpt-4-0613` |
+  `gpt-3.5-turbo-16k-0613`. Default is `gpt-3.5-turbo-16k-0613`.
+</ResponseField>
+
 <ResponseField name="messages" type="array" required>
 
 A list of messages
@@ -60,6 +65,7 @@ curl --no-buffer \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer <token>' \
     -d '{
+        "model": "gpt-3.5-turbo-16k-0613",
         "messages": [
             {
                 "role": "user",
